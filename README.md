@@ -9,3 +9,11 @@ python -m venv data622-python-venv
 source data622-python-venv/bin/activate
 pip install -r requirements.txt
 ```
+
+To add any other packages, all you need to do is:
+1. install it like regular using `pip install ...`
+2. overwrite the `requirements.txt` file by running:
+
+```
+pip freeze > requirements.txt
+```
